@@ -8,31 +8,64 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/logo" />
-
-    <com.google.android.material.textfield.TextInputLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="Usuário"
-        android:padding="10dp"
-        app:boxBackgroundColor="#FFF"
-        app:boxBackgroundMode="outline"
-        app:boxCornerRadiusBottomEnd="20dp"
-        app:boxCornerRadiusBottomStart="20dp"
-        app:boxCornerRadiusTopEnd="20dp"
-        app:boxCornerRadiusTopStart="20dp"
-        app:boxStrokeColor="#000"
-        app:counterMaxLength="100"
-        app:startIconDrawable="@drawable/baseline_pets">
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
 
-        <com.google.android.material.textfield.TextInputEditText
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
+
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Insira o usuário" />
-    </com.google.android.material.textfield.TextInputLayout>
+            android:contentDescription="Usuário"
+            android:padding="10dp"
+            app:boxBackgroundColor="#FFF"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusBottomStart="20dp"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:boxStrokeColor="#000"
+            app:counterMaxLength="100"
+            app:startIconDrawable="@drawable/baseline_pets">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Insira o usuário"
+                android:padding="20dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Senha"
+            android:padding="10dp"
+            app:boxBackgroundColor="#FFF"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusBottomStart="20dp"
+            app:boxCornerRadiusTopEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:boxStrokeColor="#000"
+            app:counterMaxLength="50"
+            app:endIconMode="password_toggle"
+            app:startIconDrawable="@drawable/baseline_pets">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Insira a senha"
+                android:inputType="textPassword"
+                android:padding="20dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
 
 </LinearLayout>

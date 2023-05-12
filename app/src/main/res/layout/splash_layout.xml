@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#554B67"
+    android:background="#DFAE6A"
     android:gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".Splash_Activity">
@@ -23,7 +23,7 @@
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/comforta_bold"
         android:text="Adota Pet"
-        android:textColor="#9A805C"
+        android:textColor="#242424"
         android:textSize="40sp"
         android:textStyle="bold" />
 

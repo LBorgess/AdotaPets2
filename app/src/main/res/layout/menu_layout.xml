@@ -113,7 +113,7 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
-                    android:scaleType="centerCrop"
+                    android:scaleType="fitStart"
                     android:src="@drawable/donation" />
 
                 <TextView
@@ -197,7 +197,7 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cat" />
+                    android:src="@drawable/location" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -235,7 +235,7 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/dog" />
+                    android:src="@drawable/sho2" />
 
                 <TextView
                     android:layout_width="wrap_content"

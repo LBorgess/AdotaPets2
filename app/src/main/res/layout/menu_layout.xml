@@ -114,7 +114,7 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/cat" />
+                    android:src="@drawable/donation" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -152,7 +152,7 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/dog" />
+                    android:src="@drawable/servicos" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -218,7 +218,7 @@
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="180dp"
-            android:id="@+id/IdMenu"
+            android:id="@+id/IdMenuShop"
             android:layout_height="200dp"
             android:layout_margin="5dp"
             android:clickable="true"
@@ -244,7 +244,7 @@
                     android:fontFamily="@font/comforta_bold"
                     android:shadowColor="#000"
                     android:shadowRadius="5"
-                    android:text="Pets"
+                    android:text="Shop"
                     android:textAllCaps="true"
                     android:textColor="#000"
                     android:textSize="25sp"

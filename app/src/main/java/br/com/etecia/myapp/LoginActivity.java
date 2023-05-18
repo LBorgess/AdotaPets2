@@ -56,5 +56,13 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        lblCadastrarUsuario.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),
+                        CadUsoActivity.class));
+            }
+        });
+
     }
 }

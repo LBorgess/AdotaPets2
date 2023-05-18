@@ -39,6 +39,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
+                android:id="@+id/txtUsuario"
                 android:layout_height="wrap_content"
                 android:hint="Insira o usuário"
                 android:padding="20dp" />
@@ -64,6 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Insira a senha"
+                android:id="@+id/txtSenha"
                 android:inputType="textPassword"
                 android:padding="20dp" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -74,6 +76,7 @@
             android:layout_gravity="end"
             android:layout_marginTop="10sp"
             android:layout_marginEnd=""
+            android:id="@+id/lblCadastrarUsuario"
             android:fontFamily="@font/comforta_bold"
             android:text="Não tem conta? Cadastre-se" />
 
@@ -87,6 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"
+                android:id="@+id/btnEntrar"
                 android:layout_weight="1"
                 android:text="Entrar" />
 
@@ -94,6 +98,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"
+                android:id="@+id/btnSair"
                 android:layout_weight="1"
                 android:text="Sair" />
 

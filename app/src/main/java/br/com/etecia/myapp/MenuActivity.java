@@ -32,8 +32,6 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         idMenuServicos.setOnClickListener(this);
         idMenuLocalizar.setOnClickListener(this);
         idMenuShop.setOnClickListener(this);
-
-
     }
 
     @Override

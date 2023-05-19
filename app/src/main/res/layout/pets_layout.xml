@@ -7,6 +7,7 @@
     tools:context=".PetsActivity">
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/idTabLayout"
         android:layout_width="match_parent"
         style="@style/Widget.MaterialComponents.TabLayout"
         android:layout_height="wrap_content">
@@ -37,4 +38,9 @@
 
     </com.google.android.material.tabs.TabLayout>
 
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idViewPagerPets"
+        android:layout_below="@+id/idTabLayout"/>
 </RelativeLayout>
